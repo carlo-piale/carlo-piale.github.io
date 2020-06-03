@@ -1,0 +1,116 @@
+/*** Carlo Piale CSS ~ CSS Globale ( Utilizzato in tutte le pagine ) - Aggiornato a Giugno del 2020 ***/
+
+/** Font-Family: "Karla" **/
+@import url("https://fonts.googleapis.com/css2?family=Karla&display=swap");
+
+/*** HTML Tag ***/
+
+html {
+  margin: 0px;
+}
+
+body {
+  background: #35363a;
+  margin: 0px;
+}
+
+.hidden {
+  display: none !important;
+}
+
+/*** Navigation Bar ***/
+
+.navbar {
+  background-color: transparent;
+  border-bottom: 1px solid #d9d9d9;
+  box-sizing: border-box;
+  display: block;
+  list-style-type: none;
+  left: 50%;
+  margin: 15px 0px;
+  max-width: 1000px;
+  padding: 0px 10px;
+  position: relative;
+  text-align: center;
+  transform: translate(-50%, 0);
+  width: 100%;
+}
+
+.navbar-item {
+  display: inline-block;
+}
+
+.active {
+  border-bottom: 2px solid #d9d9d9;
+}
+
+.active:hover {
+  border-bottom: 0px solid #d9d9d9;
+}
+
+.navbar-item a {
+  color: #d9d9d9;
+  display: block;
+  font-family: "Karla", sans-serif;
+  font-size: 20px;
+  padding: 5px 10px;
+  text-align: center;
+  text-decoration: none;
+}
+
+.navbar-item a:hover {
+  border-bottom: 2px solid #d9d9d9;
+}
+
+/*** Information card ***/
+
+.card {
+  background-color: #d9d9d9;
+  border: 2px solid #222224;
+  border-radius: 10px;
+  box-sizing: border-box;
+  color: #35363a;
+  display: block;
+  font-family: "Karla", sans-serif !important;
+  font-size: 18px;
+  margin: 30px auto;
+  max-width: 1000px;
+  text-align: center;
+  width: 100%;
+}
+
+.card-body {
+  background-color: whitesmoke;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  box-sizing: border-box;
+  display: block;
+  height: 100%;
+  margin: 5px 0px 0px 0px;
+  padding: 5px;
+}
+
+.card-image {
+  background-color: #35363a;
+  border: 2px solid #222224;
+  border-radius: 50%;
+  display: block;
+  margin: 30px auto 0px auto;
+  max-width: 200px;
+  width: 100%;
+}
+
+.card-title {
+  display: block;
+  font-size: 25px !important;
+  font-weight: bolder;
+  margin: 30px auto 0px auto;
+}
+
+.card-text {
+  display: block;
+  font-size: 19px;
+  margin: 20px auto 20px auto;
+  padding: 10px;
+  text-align: justify;
+}
